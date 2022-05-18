@@ -1,0 +1,38 @@
+.s1{
+  align-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+}
+.s2{
+  color: blue;
+  align-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+}
+.s3{
+  color: red;
+  align-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+}
+.s4{
+  color: green;
+  align-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+}
+
+  .column {
+    float: left;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
